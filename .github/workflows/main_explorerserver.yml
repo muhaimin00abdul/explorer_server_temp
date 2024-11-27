@@ -64,5 +64,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'ExplorerServer'
-          slot-name: 'production'
+          slot-name: 'development'
           package: ./deployment/ # Deploy the folder where we unzipped the content
